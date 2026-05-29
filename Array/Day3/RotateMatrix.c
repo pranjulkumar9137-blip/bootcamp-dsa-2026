@@ -51,7 +51,7 @@ int main()
         {
            int temp=arr[i][j];
            arr[i][j]=arr[i][n-j-1];
-           arr[i][n-j-1]=temp; 
+           arr[i][n-j-1]=temp;
         }
     }
     for(int i=0;i<n;i++)
